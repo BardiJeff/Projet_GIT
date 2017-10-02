@@ -15,6 +15,8 @@ namespace Projet_GIT
 
         public string profession { get; set; }
 
+        // Zone des constructeurs ///////////////////////
+
         public Personnes ()
         {
             this.nom = "BARDI";
