@@ -13,6 +13,8 @@ namespace Projet_GIT
         // PRENOM
         public string prenom { get; set; }
 
+        public string profession { get; set; }
+
         public Personnes ()
         {
             this.nom = "BARDI";
@@ -25,13 +27,26 @@ namespace Projet_GIT
             this.prenom = prenom.ToLower();
         }
 
+        public Personnes (string nom, string prenom, string profession)
+        {
+            this.nom = nom.ToUpper();
+            this.prenom = prenom.ToLower();
+            this.profession = profession.ToLower();
+        }
+        
+
         // Affichage du salarié 
         public virtual string Identite()
         {
             return nom.ToUpper() + " " + prenom.ToLower();
         }
 
-        
+        public virtual string IdentiteProfession()
+        {
+            return nom.ToUpper() + " " + prenom.ToLower() + " " + profession.ToLower();
+        }
+
+
 
     }
 }

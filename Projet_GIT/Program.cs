@@ -16,6 +16,9 @@ namespace Projet_GIT
             Personnes personne2 = new Personnes("\nUrthaler", "Stephan");
             Console.WriteLine(personne2.Identite());
 
+            Personnes personne3 = new Personnes("\n Urthaler", "Stephan", "Informaticien");
+            Console.WriteLine(personne3.IdentiteProfession()); 
+
             Console.ReadKey();
         }
     }
