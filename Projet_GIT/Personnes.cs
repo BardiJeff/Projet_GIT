@@ -49,6 +49,9 @@ namespace Projet_GIT
         }
 
 
+        // Création de la méthode DoSomething()  -------- "ABSTRACT" 
+        public void DoSomething() {}
+
 
     }
 }
