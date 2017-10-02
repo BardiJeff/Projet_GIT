@@ -19,7 +19,7 @@ namespace Projet_GIT
 
         public Personnes ()
         {
-            this.nom = "BARDI";
+            this.nom = "Urthaler";
             this.prenom = "Jeff";                
         }
 
